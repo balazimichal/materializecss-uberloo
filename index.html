@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+    <link type="text/css" rel="stylesheet" href="css/custom-styles.css" media="screen,projection" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+</head>
+
+<body>
+
+    <!-- SECTION: Navigation -->
+
+
+
+    <!-- SCRIPTS -->
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var elems = document.querySelectorAll('.sidenav');
+            var options = {
+                'edge': 'left'
+            }
+            var instances = M.Sidenav.init(elems, options);
+        });
+
+        document.addEventListener('DOMContentLoaded', function () {
+            var elems = document.querySelectorAll('.slider');
+            var options = {
+                height: 500,
+                interval: 6000,
+                indicators: true
+            }
+            var instances = M.Slider.init(elems, options);
+        });
+
+        document.addEventListener('DOMContentLoaded', function () {
+            var elems = document.querySelectorAll('.autocomplete');
+            var options = {
+
+                data: {
+                    "Aruba": "images/aruba-icon.jpg",
+                    "Cancun Mexico": "images/mexico-icon.jpg",
+                    "Hawaii": "images/hawaii-icon.jpg",
+                    "Florida": "images/florida-icon.jpg",
+                    "California": "images/california-icon.jpg",
+                    "Jamaica": "images/jamaica-icon.jpg",
+                    "Europe": "images/europe-icon.jpg",
+                    "The Bahamas": "images/bahamas-icon.jpg",
+                }
+
+            }
+            var instances = M.Autocomplete.init(elems, options);
+        });
+
+        document.addEventListener('DOMContentLoaded', function () {
+            var elems = document.querySelectorAll('.materialboxed');
+            var instances = M.Materialbox.init(elems);
+        });
+
+        document.addEventListener('DOMContentLoaded', function () {
+            var elems = document.querySelectorAll('.scrollspy');
+            var instances = M.ScrollSpy.init(elems);
+        });
+
+    </script>
+</body>
+
+</html>
