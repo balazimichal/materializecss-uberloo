@@ -73,3 +73,12 @@ h6,
 .center .divider {
   margin: 30px auto;
 }
+
+.section-testimonials .card p {
+  margin-bottom: 20px;
+}
+
+.section-testimonials .card img {
+  max-width: 50px;
+  margin-bottom: 20px;
+}
