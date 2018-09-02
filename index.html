@@ -32,7 +32,7 @@
                             <a href="signup.html">Signup</a>
                         </li>
                         <li>
-                            <a href="#" class="btn purple">Login</a>
+                            <a href="#login-modal" class="btn purple modal-trigger">Login</a>
                         </li>
                         <li>
                             <a href="https://www.facebook.com">
@@ -69,7 +69,7 @@
                             <div class="divider"></div>
                         </li>
                         <li>
-                            <a href="#" class="btn purple">Login</a>
+                            <a href="#login-modal" class="btn purple modal-trigger">Login</a>
                         </li>
 
                     </ul>
@@ -140,7 +140,7 @@
             <div class="row">
                 <div class="col s12 m8">
                     <h3>Hosting for every website</h3>
-                    <span class="divider purple darken-4"></span>
+                    <span class="divider-decorative purple darken-4"></span>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, expedita. Voluptatibus quod, voluptatum
                         consequuntur in eveniet consectetur? Velit deserunt, molestias nihil sequi architecto ex iste, laboriosam
                         saepe ab commodi quis delectus id sit.</p>
@@ -161,7 +161,7 @@
             <div class="row">
                 <div class="col s12 center">
                     <h3>For Developers, By Developers</h3>
-                    <span class="divider white"></span>
+                    <span class="divider-decorative white"></span>
                     <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias provident neque quas fugit at reiciendis.
                     </p>
@@ -198,7 +198,7 @@
             <div class="row center">
                 <div class="col s12">
                     <h3>Testimonials</h3>
-                    <span class="divider purple darken-4"></span>
+                    <span class="divider-decorative purple darken-4"></span>
                 </div>
             </div>
             <div class="row">
@@ -292,6 +292,23 @@
 
 
 
+    <!-- SECTION: Login Modal -->
+    <div id="login-modal" class="modal">
+        <div class="modal-content">
+            <h4>Account Login</h4>
+            <p>Login to access your account dashboard
+            </p>
+            <form>
+
+            </form>
+        </div>
+        <div class="modal-footer">
+
+        </div>
+    </div>
+
+
+
     <!-- SCRIPTS -->
     <script type="text/javascript" src="js/materialize.min.js"></script>
     <script>
@@ -306,6 +323,14 @@
         document.addEventListener('DOMContentLoaded', function () {
             var elems = document.querySelectorAll('.materialboxed');
             var instances = M.Materialbox.init(elems);
+        });
+
+        document.addEventListener('DOMContentLoaded', function () {
+            var elems = document.querySelectorAll('.modal');
+            var options = {
+                'opacity': 0.5
+            }
+            var instances = M.Modal.init(elems, options);
         });
 
 

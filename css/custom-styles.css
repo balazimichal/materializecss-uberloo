@@ -63,14 +63,14 @@ h6,
   position: relative;
 }
 
-.divider {
+.divider-decorative {
   display: block;
   width: 100px;
   height: 5px;
   margin: 30px 0;
 }
 
-.center .divider {
+.center .divider-decorative {
   margin: 30px auto;
 }
 
@@ -89,4 +89,8 @@ h6,
 
 .footer-copyright {
   background: #1f212c !important;
+}
+
+.modal {
+  max-width: 500px;
 }
