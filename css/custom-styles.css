@@ -23,6 +23,13 @@ h6,
   min-height: 500px;
 }
 
+.main-header-inner {
+  background: url('../images/bg-header.jpg') no-repeat center center;
+  background-size: cover;
+  color: white;
+  min-height: 300px;
+}
+
 .main-header .showcase {
   padding-top: 30px;
 }
@@ -106,4 +113,13 @@ h6,
 .input-field input[type='text']:focus {
   border-bottom: 1px solid #4a148c !important;
   box-shadow: 0 1px 0 0 #4a148c !important;
+}
+
+.tabs .indicator {
+  background-color: #6a1b9a !important;
+}
+
+.tabs .tab a:hover,
+.tabs .tab a.active {
+  background-color: #ede7f6 !important;
 }
