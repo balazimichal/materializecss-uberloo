@@ -4,6 +4,16 @@ Uberloo is a hosting company selling hosting packages. This site was build with 
 
 You can preview this app on surge: http://uberloo.surge.sh/
 
+## Features
+
+- Tabs
+- Modal
+
+## Technologies
+
+- HTML5
+- Materialize CSS framework
+
 ## Installation instructions
 
 To run this project folow this steps:
