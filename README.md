@@ -6,8 +6,10 @@ You can preview this app on surge: https://uberloo.surge.sh/
 
 ## Features
 
-- Tabs
-- Modal
+- Interactive tabs
+- Modal windows
+
+![uberloo app image](/images/screencapture-uberloo.jpg)
 
 ## Technologies
 
