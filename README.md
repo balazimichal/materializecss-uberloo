@@ -2,7 +2,7 @@
 
 Uberloo is a hosting company selling hosting packages. This site was build with materialize CSS framework. It is one page responsive website comprized of carousel with testimonials, service tabs, contact form and responsive mobile sidebar navigation menu.
 
-You can preview this app on surge: http://uberloo.surge.sh/
+You can preview this app on surge: https://uberloo.surge.sh/
 
 ## Features
 
